@@ -15,7 +15,7 @@ body{
     animation-name: slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    position: absolute;
+    position: relative;
 }
 #hey{
     font-size: 25px;

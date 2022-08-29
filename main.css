@@ -2,11 +2,11 @@ body{
     margin: 0;
     background: #353535;
 }
-.slider{
-    width: 100%;
+#slider{
+    width: 1255px;
     height: 500px;
 }
-.circle {
+#circle {
     margin-top: 30px;
     border: 2px solid gold;
     width: 100px;
@@ -15,9 +15,9 @@ body{
     animation-name: slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    position: relative;
+    position: absolute;
 }
-.hey{
+#hey{
     font-size: 25px;
     margin: 0;
     width: 100px;
@@ -37,10 +37,12 @@ body{
         top: 0;
     }
     50%{
+        rotate: 360deg;
         left: 100%;
         top: 300px;
     }
     75%{
+        rotate: none;
         left: 0;
         top: 0;
     }

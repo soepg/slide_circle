@@ -3,7 +3,7 @@ body{
     background: #353535;
 }
 #slider{
-    width: 1255px;
+    width: 100%;
     height: 500px;
 }
 #timer {

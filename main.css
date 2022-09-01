@@ -50,16 +50,6 @@ body{
     height: 50px;
     animation: counter 10s steps(9, end) infinite;
 }
-#hey{
-    font-size: 25px;
-    margin: 0;
-    width: 100px;
-    height: 100px;
-    color: gold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 @keyframes slide {
     0% {
         left: 0;
